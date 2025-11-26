@@ -51,7 +51,7 @@ app.delete('/api/recipes/:id', (req, res) => {
     }
 });
 app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+    console.log(`Server is running on port http://localhost:3000 ${PORT}`);
 }   );
 
 
